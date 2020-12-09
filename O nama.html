@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nama</title>
+    
+    <link rel="stylesheet" href="Styles/styleONama.css">
+    <link rel="stylesheet" href="Styles/jquery-ui.css">
+    <link rel="stylesheet" href="Media/mediaONama.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,200&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+
+    <script src="Scripts/script_o_nama.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logoLink"><img class="logo" src="Slike\Logo2.jpg" alt=""></a>
+        <nav>
+            <ul class="meni">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="vina.html">Vina</a></li>
+                <li><a href="O nama.html">O nama</a></li>
+                <li><a href="Korpa.html">Korpa</a></li>
+            </ul>
+        </nav>
+        <a class="veliki" href=""> <button onclick="otvoriNovi()">Prijavi se</button></a>
+
+    </header>
+    <a class="mali" href="Prijava.html"> <button>Prijavi se</button></a>
+    <h1>Vinarija Vesić</h1>
+
+
+    <div id="red">
+        <div class="dete1">
+            <img src="Slike/grapes.jpg" alt="" class="Slika1">
+        </div>
+        <div class="dete2">
+            <div class="tekst">
+                <h2>Priča o nama</h2>
+                <p class="paragraf">Porodična tradicija zasnovana 1965. godine, traje i širi se jer je neguju kako naši zaposleni,
+                    tako i verni ljubitelji naših vina. Još od davnina trudimo se da ispratimo trendove
+                    i modernizujemo ambalaže i način proizovdnje, ali suština ostaje ista,
+                    kako bi našim kupcima svaka čaša vina bila neponovljivo iskustvo.
+                    Neprestano tragamo za izvanrednim vinima što iziskuje pre svega
+                    znanje, umeće, ljubav i posvećenost. </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="red2">
+        <div class="dete1">
+            <img src="Slike/bure.jpg" alt="" class="Slika2">
+        </div>
+        <div class="dete2">
+            <div class="tekst">
+                <h2>Vinarija</h2>
+                <p class="paragraf">Vinski podrum pleni lepotom, predstavlja autentičan spoj modernog i rustičnog. Raspolažemo velikom
+                    ponudom vina, sa različitim cenama i iznenađenjima-za potpuno zadovoljstvo svih džepova i
+                    ukusa.Nastojimo da kako našu vinariju tako i podrume stalno dopunjavamo novim tehnologijama,
+                    opremom, novim i različitim buradima. Sve to činimo zbog pouzdanog kvaliteta i dodatnih
+                    eksperimenata. </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="footer">
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.3395882601058!2d21.358445115494213!3d44.69226537909931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4750fb9536874239%3A0x1bbd0cf6408b221f!2s%C5%BDikice%20Jovanovi%C4%87a%2C%20Majilovac!5e0!3m2!1sen!2srs!4v1607358712715!5m2!1sen!2srs"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                class="framemapa"></iframe>
+        </div>
+        <div class="info">
+            <img src="Slike/Logo2.jpg" alt=""><br>
+            <b>Radno vreme:</b> <br>
+            Ponedeljak - Petak: 08h-20h <br>
+            <br>
+            Žikice Jovanovića 13 <br>
+            12221 Majilovac,Srbija <br>
+            +381 65 9990326 <br>
+            <br>
+            <div id="ikonice">
+                <a href="https://www.facebook.com"><img src="Slike/Facebook.png" alt="" class="ikonice"></a>
+                <a href="https://www.instagram.com/"><img src="Slike/Instagram.webp" alt="" class="ikonice"></a>
+                <a href="https://www.gmail.com"><img src="Slike/Email.png" alt="" class="ikonice"></a>
+            </div>
+        </div>
+
+        
+        <div class="datePicker">
+            <div>
+            <h3>Zakažite obilzak:</h3> <input type="text" id="datepicker"><br><br><br> </div> 
+            <div>
+            <a href=""> <button onclick="otvoriNovi()">Zakaži termin</button></a>
+        </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

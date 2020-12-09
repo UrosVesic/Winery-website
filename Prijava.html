@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registruj se</title>
+    <link rel="stylesheet" href="Styles/stylePrijava.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,200&display=swap" rel="stylesheet">
+
+    <script defer src="Scripts/script_prijava.js"></script>
+</head>
+
+<body>
+    
+    <div class="formaPrijava">
+        <form action="" id="forma">
+          <h1>Prijavi se</h1>
+        
+            
+            <input type="text" id="imePrezime" name="IPR" placeholder="Unesite ime i prezime" class="unos" required>
+            <input type="email" placeholder="Unesite email" id="email" class="unos" required>
+            <input type="password" placeholder="Unesite šifru" id="password" class="unos" required>
+            <input type="password" placeholder="Ponovo unesite šifru" id="password2" class="unos" required>
+            <div class="radioPol">
+                <input type="radio" id="radioMusko" name="radioFruit" value="apple" checked>
+                <label for="radioMusko">Muško</label>
+                <input type="radio" id="radioZensko" name="radioFruit" value="banana">
+                <label for="radioZensko">Žensko</label>
+            </div>
+            <div id="greska">
+
+            </div>
+
+            <input type="submit" value="Registruj se" class="submitDugme" onclick="popUp()">
+            <div id = "Zatvori">
+            
+                <input type="button" value="Nazad" class="nazadDugme" onclick="zatvori()">
+            
+        </div>
+        </form>
+        
+
+
+</body>
+
+</html>

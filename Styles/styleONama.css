@@ -1,0 +1,211 @@
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    background-color: #8C001A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+a{
+    font-size: 10px;
+}
+
+.meni > li >a{
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 35px;
+}
+.datePicker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Texturina', serif;
+text-align:center;
+color: #3f0613;
+}
+
+button {
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 35px;
+    color: #edf0f1;
+}
+
+
+
+
+button {
+    font-size: 30px;
+}
+
+.mali {
+    display: none;
+}
+
+
+
+
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+.logo {
+    height: 100px;
+    max-width: 100%;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.meni {
+    list-style: none;
+}
+
+.meni li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.meni li a {
+    color: #8C001A;
+    text-decoration: none;
+}
+
+.meni li a:hover {
+    color: #29030c;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #8C001A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3f0613;
+}
+
+
+
+.Slika2 {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    max-width: 1000px;
+    clip-path: circle(61.4% at 63% 50%);
+    padding-right: 0px;
+}
+
+.Slika1 {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    max-width: 1000px;
+    clip-path: circle(64.0% at 34% 57%);
+}
+
+#red {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+
+#red .dete1 {
+    width: 55%;
+}
+
+#red .dete2 {
+    width: 45%;
+
+}
+
+
+
+#red2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+#red2 .dete2 {
+    width: 45%;
+}
+
+.tekst {
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    margin-right: 5%;
+    padding-left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.paragraf {
+    font-family: 'Texturina', serif;
+    text-align: justify
+}
+#datePicker{
+    font-size: 3px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.info {
+    font-family: 'Texturina', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.info img {
+    height: 100%;
+    width: 100%;
+    max-width: 120px;
+    max-height: 120px;
+
+}
+
+#ikonice img {
+    height: 35px;
+    width: 35px;
+    padding-left: 7px;
+}
+
+.mapa {
+    padding-top: 25px;
+}
+
+.framemapa {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 300px;
+}
+

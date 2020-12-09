@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korpa</title>
+    <link rel="stylesheet" href="Styles/styleKorpa.css">
+    <link rel="stylesheet" href="Media/mediaKorpa.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,200&display=swap" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" defer>
+    </script>
+
+    <script src="Scripts/scriptKorpa.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logoLink"><img class="logo" src="Slike\Logo2.jpg" alt=""></a>
+        <nav>
+            <ul class="meni">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="vina.html">Vina</a></li>
+                <li><a href="O nama.html">O nama</a></li>
+                <li><a href="Korpa.html">Korpa</a></li>
+            </ul>
+        </nav>
+        
+        <a class="cta" > <button onclick="otvoriNovi1()">Prijavi se</button></a>
+    </header>
+
+    <h1>Asortiman</h1>
+
+    <div id="red">
+        <div class="dete">
+            <div class="card">
+                <img src="Slike/shop11.png" class="slika" style="width:100%">
+                <h2>Chardonnay</h2>
+                <p class="price">960 RSD</p>
+                <p><button id="dugmeSardone" onclick="kolicinaSardone(),ukupnaCena1()">Dodaj u korpu</button></p>
+            </div>
+        </div>
+
+        <div class="dete">
+            <div class="card">
+                <img src="Slike/shop21.png" class="slika" style="width:100%">
+                <h2>Risling</h2>
+                <p class="price">910 RSD</p>
+                <p><button id="dugmeRizling" onclick="kolicinaRizling(),ukupnaCena2()">Dodaj u korpu</button></p>
+            </div>
+        </div>
+
+        <div class="dete">
+            <div class="card">
+                <img src="Slike/shop31.png" class="slika" style="width:100%">
+                <h2>Pinot Noir</h2>
+                <p class="price">870 RSD</p>
+                <p><button id="dugmePinot" onclick="kolicinaPinot(),ukupnaCena3()">Dodaj u korpu</button></p>
+            </div>
+        </div>
+
+        <div class="dete">
+            <div class="card">
+                <img src="Slike/shop41.jpg" class="slika" style="width:100%">
+                <h2>Cabernet Sauvignon</h2>
+                <p class="price">910 RSD</p>
+                <p><button id="dugmeCabernet" onclick="kolicinaCabernet(),ukupnaCena4()" >Dodaj u korpu</button></p>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div id="strana">
+        <div class ="kolona">
+            <div class="prviRed"> Ime artikla</div>
+            <div class="drugiRed"><p>Chardonnay</p></div>
+            <div class="treciRed"><p>Risling</p></div>
+            <div class="cetvrtiRed"><p>Pinot Noir</p></div>
+            <div class="petiRed"><p>Cabernet Sauvignon</p></div>
+        </div>
+        
+        <div class ="kolona2">
+            <div class="prviRed">Količina</div>
+            <div class="drugiRed"> <p id="komadaSardone">0</p> </div>
+            <div class="treciRed" > <p id="komadaRizling">0</p> </div>
+            <div class="cetvrtiRed"> <p id="komadaPinot"> 0 </p> </div>
+            <div class="petiRed"> <p id="komadaCabernet"> 0 </p> </div>
+        </div>
+        
+        <div class ="kolona">
+            <div class="prviRed">Ukupna cena</div>
+            <div class="drugiRed"> <p id="ukupna"> 0 </p> </div>
+           <div class="treciRed"> <a ><p><button id ="dugmePoruci" onclick="otvoriNovi()">Poruči</button></p></a></div>
+           <div class="cetvrtiRed"> <p><button id="Obrisi" onclick="obrisiKorpu()">Obriši korpu</button></p></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

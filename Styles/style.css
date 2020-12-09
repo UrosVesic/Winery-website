@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a,
+button {
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 35px;
+    color: #edf0f1;
+
+}
+
+.mali {
+    display: none;
+}
+
+
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+
+}
+
+.logo {
+    height: 100px;
+    max-width: 100%;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.meni {
+    list-style: none;
+}
+
+.meni li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.meni li a {
+    color: #8C001A;
+    
+    text-decoration: none;
+}
+
+.meni li a:hover {
+    color: #29030c;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #8C001A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #3f0613;
+}
+
+
+body {
+    background: url(../Slike/Pozadina.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-size: 26px;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    font-family: 'Parisienne', cursive;
+    color: white;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align: right;
+}
+
+blockquote cite:before {
+    content: "\2013";
+}
+
+#red {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+
+#red .dete1 {
+    width: 50%;
+}
+
+#red .dete2 {
+    width: 50%;
+}
+
+.tekst {
+    padding-top: 120px;
+}
+
+.tekst2 {
+    padding-top: 90px;
+}
+
+.ikonica {
+    height: 70px;
+    width: 70px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+

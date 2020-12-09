@@ -1,0 +1,155 @@
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    background-color: #8C001A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+li,
+a,
+button {
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 35px;
+    color: #edf0f1;
+
+}
+
+.mali {
+    display: none;
+}
+
+
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+.logo {
+    height: 100px;
+    max-width: 100%;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.meni {
+    list-style: none;
+}
+
+.meni li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.meni li a {
+    color: #8C001A;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.meni li a:hover {
+    color: #29030c;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #8C001A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #3f0613;
+}
+
+.vino {
+    clip-path: polygon(29% 1%, 100% 0, 100% 100%, 0 100%);
+    height: 100%;
+    max-height: 800px;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.vino2 {
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0 100%);
+    height: 100%;
+    max-height: 800px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#red1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#red1 .dete1 {
+    width: 75%;
+}
+
+#red1 .dete2 {
+    width: 35%;
+}
+
+#red2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#red2 .dete2 {
+    width: 44%;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Texturina', serif;
+    text-align: justify
+}
+
+.tekstVeliki {
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    margin-right: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.tekst2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.tekstMali {
+
+    display: none;
+}
+

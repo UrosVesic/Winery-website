@@ -1,0 +1,147 @@
+@media screen and (max-width: 550px) {
+
+    li,
+    a,
+    button,
+    h1 {
+        font-weight: 300;
+        font-size: 15px;
+
+    }
+
+    .veliki {
+        display: none;
+    }
+
+    .mali {
+        display: inline;
+
+    }
+
+}
+@media screen and (max-width: 1420px) {
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+    p {
+        font-size: 11px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .vino {
+        clip-path: polygon(29% 1%, 100% 0, 100% 100%, 0 100%);
+        height: 100%;
+        max-height: 400px;
+        width: 100%;
+        max-width: 1000px;
+
+    }
+
+    .vino2 {
+        clip-path: polygon(0 0, 74% 0, 100% 100%, 0 100%);
+        height: 100%;
+        max-height: 400px;
+        width: 100%;
+        max-width: 1000px;
+    }
+
+
+
+    @media screen and (max-width: 550px) {
+        p {
+            font-size: 8px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        #red1 {
+            display: block;
+
+        }
+
+        #red2 {
+            display: block;
+        }
+
+        .vino {
+            clip-path: none;
+            width: 100%;
+        }
+
+        .vino2 {
+            clip-path: none;
+        }
+
+        #red1 .dete1 {
+            width: 100%;
+        }
+
+        #red1 .dete2 {
+
+            width: 100%;
+        }
+
+        #red2 .dete2 {
+            width: 100%;
+
+        }
+
+        .tekstVeliki {
+            display: none;
+        }
+
+        .tekstMali {
+            display: block;
+            margin-right: 20%;
+            margin-left: 20%;
+
+        }
+
+        .tekstMali h2 {
+
+            font-family: 'Parisienne', cursive;
+        }
+
+
+        .tekst2 {
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+
+
+    }
+}

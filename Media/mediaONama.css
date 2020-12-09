@@ -1,0 +1,66 @@
+@media screen and (max-width: 550px) {
+
+    li,
+    a,
+    button,
+    h1 {
+
+        font-weight: 300;
+        font-size: 15px;
+
+    }
+
+    .veliki {
+        display: none;
+    }
+
+    .mali {
+        display: inline;
+
+    }
+
+}
+@media screen and (max-width: 1300px) {
+    .tekst {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .tekst {
+        font-size: 15px;
+        margin-right: auto;
+        padding-left: auto;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .tekst {
+        font-size: 11px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .tekst {
+        font-size: 7px;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}

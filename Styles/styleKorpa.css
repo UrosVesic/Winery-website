@@ -1,0 +1,197 @@
+
+li,
+a,
+button {
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 35px;
+    color: #edf0f1;
+
+}
+
+button {
+    font-size: 30px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+.logo {
+    height: 100px;
+    max-width: 100%;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.meni {
+    list-style: none;
+}
+
+.meni li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.meni li a {
+    color: #8C001A;
+    text-decoration: none;
+}
+
+.meni li a:hover {
+    color: #29030c;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #8C001A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #3f0613;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: #8C001A;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+
+}
+
+.card button {
+    border: none;
+    outline: 0;
+
+    color: white;
+    background-color: #000;
+
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+#red {
+    width: 90%;
+    
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: stretch;
+    margin: 20px auto;
+}
+
+
+#red .dete {
+    width: 80%;
+}
+
+.dete img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px;
+
+}
+#strana{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 60%;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+.kolona{
+    border: black solid 2px;
+}
+
+.kolona2{
+    border: black solid 2px;
+    font-weight: bold;
+}
+.prviRed{
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    background-color: #8C001A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Parisienne', cursive;
+    font-style: italic;
+
+}
+.drugiRed{
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+
+    
+}
+.treciRed {
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+}
+.cetvrtiRed{
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+
+}
+.petiRed{
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+}
+
+#ukupna {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#Obrisi {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#dugmePoruci {
+    font-size: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
